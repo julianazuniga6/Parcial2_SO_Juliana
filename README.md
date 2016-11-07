@@ -1,7 +1,6 @@
 
 #### Parcial #2 de Sistemas Operativos
 ### Juliana Zúñiga, código 13207011
-
 ##### Diseño e implementación de pruebas para servicio web que realiza acciones sobre el sistema operativo (CentOS 6.8 server) mediante el uso de servidor de integración continua (Jenkins)
 
 Se tomó como base el servicio web del exámen 1 (https://github.com/julizuoso/Parcial1_Juliana.git) y se instaló Jenkins siguiendo el procedimiento que se muestra en https://github.com/d4n13lbc/testproject.git.
@@ -109,23 +108,24 @@ Acceder al portal web de Jenkins ingresando en el explorador la IP del servidor 
 #### 4.
 Crear un proyecto de estilo libre, integrarlo con GitHub y poner la URL del repositorio donde estén guardados los scripts del servicio y los que realicen las pruebas del mismo.
 
-![alt text](https://s13.postimg.org/ib3hstct3/img1.png "")
-![alt text](https://s13.postimg.org/gxbuxidjr/img2.png "")
+![alt text](https://s13.postimg.org/ib3hstct3/img1.png)
+
+![alt text](https://s13.postimg.org/gxbuxidjr/img2.png)
 
 #### 5.
 Configurar los disparadores de ejecuciones para decidir cada cuánto se ejecutan pruebas sobre el código fuente. En este caso, se ejecutan las pruebas cada 5 minutos.
 
-![alt text](https://s13.postimg.org/jfxjy6z9z/img3.png "")
+![alt text](https://s13.postimg.org/jfxjy6z9z/img3.png)
 
 #### 6.
 En las opciones de ejecución, añadir un nuevo paso que ejecute en la línea de comandos de nuestro servidor el script .sh que fue creado en el paso 1 y guardar la configuración.
 
-![alt text](https://s13.postimg.org/rmpjprpcn/img4.png "")
+![alt text](https://s13.postimg.org/rmpjprpcn/img4.png)
 
 #### 7.
-A continuación se muestran las ejecuciones de las pruebas relizadas. Al hacer click en ellas y luego ver la salida de consola de cada una, obtenemos información sobre el resultado de las pruebas (si tuvieron exito o no, y por qué fallaron). En la ejecución __#166__ la prueba se realizó sobre el código fuente modificado para que respondiera algo inesperado al crear un nuevo archivo, por eso el resultado de la prueba no es exitoso como el de la ejecución __#165_.
+A continuación se muestran las ejecuciones de las pruebas relizadas. Al hacer click en ellas y luego ver la salida de consola de cada una, obtenemos información sobre el resultado de las pruebas (si tuvieron exito o no, y por qué fallaron). En la ejecución __#166__ la prueba se realizó sobre el código fuente modificado para que respondiera algo inesperado al crear un nuevo archivo, por eso el resultado de la prueba no es exitoso como el de la ejecución __#165__.
 
-![alt text](https://s13.postimg.org/oh9jdaw47/img5.png "")
+![alt text](https://s13.postimg.org/oh9jdaw47/img5.png)
 
 Salida de consola de la ejecución __#165__:
 
