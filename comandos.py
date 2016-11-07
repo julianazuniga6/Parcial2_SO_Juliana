@@ -9,7 +9,7 @@ def create_file(filename, content):
 	a=open("/home/filesystem_user/files/"+filename,"w")
 	a.write(content)
 	a.close()
-	return "HTTP 201 CREATED- se creo el archivo"
+	return "Se creo el archivo"
 
   
 def eliminar_a(file):
