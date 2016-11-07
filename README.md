@@ -7,7 +7,7 @@ Se tomó como base el servicio web del exámen 1 (https://github.com/julizuoso/P
 
 ##### Los pasos necesarios para la ejecución y prueba de la solución son:
 #### 1.
-Crear un script .sh donde se active el ambiente creado para desarrollar las pruebas y ____. El script usado se muestra a continuación:
+Crear un script .sh donde se active el ambiente creado para desarrollar las pruebas y se indique a pytest como el método para realizar las pruebas y que muestre sus resultados en un archivo xml. El script usado se muestra a continuación:
 ```bash
 #!/usr/bin/env bash
 set -e
