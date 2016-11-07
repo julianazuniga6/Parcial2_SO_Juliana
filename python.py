@@ -15,7 +15,7 @@ def crear():
   if not nombre:
    return 400
   else:
-    return resp, 200
+    return resp, 201
 
 @app.route(api_url,methods=['GET'])
 def listado():
